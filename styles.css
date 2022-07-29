@@ -1,0 +1,15 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    box-sizing: border-box;
+}
+.cell{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.cell:hover{
+    background-color: red;
+}
